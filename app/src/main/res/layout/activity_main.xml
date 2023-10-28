@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +7,22 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="404 NOT FOUND"/>
+        android:fontFamily="@font/gowundodumregular"
+        android:text="404 NOT FOUND"
+        android:textColor="#00FF00"
+        android:textSize="20dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="안녕하세요 코틀린특강 수강생 조영재입니다."/>
+        android:fontFamily="@font/gowundodumregular"
+        android:text="안녕하세요 코틀린특강 수강생 조영재입니다."
+        android:textColor="#0000FF"
+        android:textSize="20dp" />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
