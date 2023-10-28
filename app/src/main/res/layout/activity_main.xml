@@ -24,5 +24,27 @@
         android:textColor="#0000FF"
         android:textSize="20dp" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gowundodumregular"
+            android:text="linear 레이아웃 내부 텍스트 : ">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gowundodumregular"
+            android:text="가로 정렬">
+
+        </TextView>
+    </LinearLayout>
+
 
 </LinearLayout>
